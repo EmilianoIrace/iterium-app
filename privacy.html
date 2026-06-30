@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iterium — Privacy Policy</title>
+  <style>
+    :root {
+      --blue: #2585FD;
+      --dark: #1456D6;
+      --bg:   #F7F8FA;
+      --card: #FFFFFF;
+      --text: #111827;
+      --sub:  #6B7280;
+      --border: #E5E7EB;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    header {
+      background: linear-gradient(135deg, var(--dark), var(--blue));
+      color: white;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 1.6rem; font-weight: 700; }
+    header p  { margin-top: 6px; opacity: 0.85; font-size: 0.95rem; }
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    h2 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--dark);
+      margin: 28px 0 10px;
+    }
+    p, li {
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: #374151;
+    }
+    ul { padding-left: 20px; margin-top: 6px; }
+    li { margin-bottom: 6px; }
+    .updated {
+      font-size: 0.82rem;
+      color: var(--sub);
+      margin-bottom: 28px;
+    }
+    a { color: var(--blue); }
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 0.82rem;
+      color: var(--sub);
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Privacy Policy</h1>
+  <p>Iterium — AI-Powered Trip Itinerary Planner</p>
+</header>
+
+<main>
+  <p class="updated">Last updated: June 2026</p>
+
+  <p>
+    Iterium ("the app") is developed by Emiliano Irace. This Privacy Policy explains
+    what data the app accesses and how it is handled.
+  </p>
+
+  <h2>1. Data We Do Not Collect</h2>
+  <p>Iterium does not collect, transmit, or store any personal data on external servers. Specifically:</p>
+  <ul>
+    <li>No account or registration is required.</li>
+    <li>No analytics or usage tracking SDKs are integrated.</li>
+    <li>No advertising or marketing SDKs are used.</li>
+    <li>No crash reporting service is connected.</li>
+    <li>Your name, email, or any other personally identifiable information is never requested or stored by the app.</li>
+  </ul>
+
+  <h2>2. Data Stored Locally on Your Device</h2>
+  <p>All data created within the app stays on your device:</p>
+  <ul>
+    <li><strong>Trip itineraries</strong> — saved as a JSON file in the app's Documents directory. This data never leaves your device unless you explicitly export or share it.</li>
+    <li><strong>Journal entries, expenses, packing lists</strong> — stored locally alongside trip data.</li>
+    <li><strong>AI provider API keys</strong> (e.g. Groq API key) — stored securely in the iOS Keychain. The key is never transmitted to anyone other than the AI provider you explicitly configured.</li>
+    <li><strong>App settings and preferences</strong> — stored in UserDefaults on your device.</li>
+  </ul>
+
+  <h2>3. Third-Party Services</h2>
+
+  <p><strong>Groq API (optional)</strong><br>
+  If you provide a Groq API key, the app sends your trip generation prompts to Groq's servers to produce itinerary content. No personal information is included in these prompts beyond the travel parameters you enter (destination, dates, preferences). Groq's privacy policy applies: <a href="https://groq.com/privacy-policy/">groq.com/privacy-policy</a>.</p>
+
+  <p style="margin-top:12px"><strong>Apple MapKit</strong><br>
+  The app uses Apple's MapKit framework for map display and geocoding. Apple's privacy policy applies to any location data processed via MapKit.</p>
+
+  <p style="margin-top:12px"><strong>Wikipedia / Wikimedia Commons</strong><br>
+  Location photos are fetched from Wikipedia and Wikimedia Commons. Requests include only the place name; no personal data is transmitted.</p>
+
+  <p style="margin-top:12px"><strong>Pexels (optional)</strong><br>
+  If a Pexels API key is configured by the developer, image searches may be performed. No personal user data is included in these requests.</p>
+
+  <h2>4. Location Data</h2>
+  <p>
+    Iterium does not request access to your device's GPS location. Map interactions
+    use only the coordinates embedded in your trip itinerary.
+  </p>
+
+  <h2>5. Children's Privacy</h2>
+  <p>
+    Iterium is not directed at children under 13. We do not knowingly collect
+    any information from children.
+  </p>
+
+  <h2>6. Changes to This Policy</h2>
+  <p>
+    If this policy changes materially, the updated version will be posted at this URL
+    with a revised "Last updated" date.
+  </p>
+
+  <h2>7. Contact</h2>
+  <p>
+    Questions about this Privacy Policy? Contact:<br>
+    <a href="mailto:iracemiliano@gmail.com">iracemiliano@gmail.com</a>
+  </p>
+</main>
+
+<footer>
+  &copy; 2026 Emiliano Irace &nbsp;·&nbsp;
+  <a href="index.html">← Back to Support</a>
+</footer>
+
+</body>
+</html>

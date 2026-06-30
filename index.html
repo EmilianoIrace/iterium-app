@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iterium — Support</title>
+  <style>
+    :root {
+      --blue:    #2585FD;
+      --dark:    #1456D6;
+      --bg:      #F7F8FA;
+      --card:    #FFFFFF;
+      --text:    #111827;
+      --sub:     #6B7280;
+      --border:  #E5E7EB;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    header {
+      background: linear-gradient(135deg, var(--dark), var(--blue));
+      color: white;
+      padding: 48px 24px 40px;
+      text-align: center;
+    }
+    header img {
+      width: 80px; height: 80px;
+      border-radius: 18px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+      margin-bottom: 16px;
+    }
+    header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.5px; }
+    header p  { margin-top: 6px; opacity: 0.85; font-size: 1rem; }
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px 28px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    }
+    .card h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: var(--dark);
+    }
+    .card p, .card li {
+      font-size: 0.95rem;
+      line-height: 1.65;
+      color: #374151;
+    }
+    .card ul { padding-left: 20px; margin-top: 8px; }
+    .card li { margin-bottom: 6px; }
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .contact-btn {
+      display: inline-block;
+      margin-top: 16px;
+      background: var(--blue);
+      color: white;
+      padding: 12px 24px;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    .contact-btn:hover { background: var(--dark); text-decoration: none; }
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 0.82rem;
+      color: var(--sub);
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Iterium</h1>
+  <p>AI-Powered Trip Itinerary Planner</p>
+</header>
+
+<main>
+
+  <div class="card">
+    <h2>🛠 Support</h2>
+    <p>
+      Having trouble with Iterium, found a bug, or want to suggest a feature?
+      We're happy to help.
+    </p>
+    <a class="contact-btn" href="mailto:iracemiliano@gmail.com">Contact Support</a>
+  </div>
+
+  <div class="card">
+    <h2>📋 Privacy Policy</h2>
+    <p>
+      Iterium does not collect, store, or share any personal data on external servers.
+      All trip data is stored locally on your device.
+    </p>
+    <ul>
+      <li>Trip itineraries are saved only on your iPhone — never uploaded to our servers.</li>
+      <li>The app optionally connects to the <strong>Groq API</strong> using an API key you provide. This key is stored securely in the iOS Keychain and is never transmitted to third parties.</li>
+      <li>No analytics, crash reporting, tracking, or advertising SDKs are used.</li>
+      <li>No account or registration is required.</li>
+      <li>Map data is provided by Apple Maps (MapKit) under Apple's privacy terms.</li>
+      <li>Location photos are fetched from Wikipedia / Wikimedia Commons — no personal data is sent in these requests.</li>
+    </ul>
+    <p style="margin-top:14px">
+      <a href="privacy.html">View full Privacy Policy →</a>
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>ℹ️ About Iterium</h2>
+    <p>
+      Iterium generates complete, day-by-day travel itineraries with geocoded locations,
+      live maps, transit routes, and curated alternatives — powered by AI.
+      Available on the <a href="https://apps.apple.com/app/iterium">App Store</a>.
+    </p>
+  </div>
+
+</main>
+
+<footer>
+  &copy; 2026 Emiliano Irace &nbsp;·&nbsp;
+  <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp;
+  <a href="mailto:iracemiliano@gmail.com">iracemiliano@gmail.com</a>
+</footer>
+
+</body>
+</html>
